@@ -16,4 +16,7 @@ a:hover {
     .pt-xs-3 {
         padding-top: 1rem;
     } 
+    .card {
+        max-width: 350px;
+    }
 }
