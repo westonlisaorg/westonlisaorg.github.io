@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* HYPERLINK COLORS */
+a {
+    color: #e28043 !important;
+    text-decoration: underline;
+  }
+a:hover {
+    color: #f7af63 !important;
+}
+
+/* CARDS RESPONSIVE BEHAVIOR ON SMALL AND EXTRA SMALL DEVICES ONLY */
+@media (max-width: 768px) {
+    .text-xs-center {
+        text-align: center;
+    } 
+    .pt-xs-3 {
+        padding-top: 1rem;
+    } 
+}

@@ -1,58 +1,132 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Welcome to WestonLisa.org</title>
+  <!--GOOGLE ANALYTICS - Global site tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-01FF8VE4CF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-01FF8VE4CF');
+  </script>
+  <!--END GOOGLE ANALYTICS-->
+  <meta name="robots" content="noindex,nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to WestonLisa.Org</title>
+
+  <!--BOOTSTRAP CORE CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--CUSTOM STYLESHEET-->
+  <link href="custom.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-  <h1>Welcome to WestonLisa.org</h1>
-  <h3>We are currently rebuilding our website.</h3>
-  <p>In the meantime, you can connect with us by using the following links:</p>
-  <p><a href="https://give.pioneers.org/p-75-give-to-a-missionary-or-project.aspx?firstname=Wes-Lisa&projectcode=111971" target="_blank">Join our Support Team</a> Use project # 111971</p>
-  <p>Email us at westonlisaorg@gmail.com</p>
-  <p>For security reasons we do not have an online repository for our newsletters.</p>
-<p></p>
-  <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:500px;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://westonlisa.us19.list-manage.com/subscribe/post?u=bf2a754ce2b8360a39f7f6c50&amp;id=4161ee10c1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our Newsletter</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-</div>
-	<div id="mce-responses" class="clear foot">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bf2a754ce2b8360a39f7f6c50_4161ee10c1" tabindex="-1" value=""></div>
-        <div class="optionalParent">
-            <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                <p class="brandingLogo"><a href="http://eepurl.com/hREzIH" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
-            </div>
-        </div>
+<body >
+
+<main class="container pb-5">
+  <!--HEADER IMAGE-->
+  <div class="row">
+    <img src="assets/cover-mobile.jpg" class="d-md-none" alt="Weston and Lisa cover">
+    <img src="assets/cover-short.jpg" class="d-none d-md-block" alt="Weston and Lisa cover">
+    <div class="p-2 text-center">
+      <h1>Welcome to Weston Lisa Online</h1>
+      <p>Serving in Southeast Asia in a pioneer church planting team.</p>
     </div>
-</form>
+  </div>
+
+  <!--CALL TO ACTION CARDS-->
+  <div class="row d-flex justify-content-center">
+
+    <!--NEWS-->
+    <div class="card m-3 shadow-sm" style="max-width: 400px;">        
+      <div class="row h-100 d-flex align-items-center">
+        <div class="col-md-4 pt-xs-3 d-flex justify-content-center align-items-center">
+          <img src="assets/icons/enews.png" alt="newsletter" style="max-block-size: 65px;">
+        </div>
+        <div class="col-md-8 card-body text-xs-center">
+          <h5 class="card-title">Latest News</h5>
+          <p class="card-text">Subscribe to our newsletter and read our news archive online.</p>
+          <a href="news.html" class="stretched-link">View our news page ></a>
+        </div>
+      </div>
+    </div>
+
+    <!--PRAY-->
+    <div class="card m-3 shadow-sm" style="max-width: 400px;">        
+      <div class="row h-100 d-flex align-items-center">
+        <div class="col-md-4 pt-xs-3 d-flex justify-content-center align-items-center">
+          <img src="assets/icons/pray.png" alt="pray" style="max-block-size: 65px;">
+        </div>
+        <div class="col-md-8 card-body text-xs-center">
+          <h5 class="card-title">Join Us In Prayer</h5>
+          <p class="card-text">Join us in prayer for God to act in and through us to see new churches planted.</p>
+          <a href="pray.html" class="stretched-link">See our prayer requests ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <!--PARTNER-->
+    <div class="card m-3 shadow-sm" style="max-width: 400px;">        
+      <div class="row h-100 d-flex align-items-center">
+        <div class="col-md-4 pt-xs-3 d-flex justify-content-center align-items-center">
+          <img src="assets/icons/partner.png" alt="partner" style="max-block-size: 65px;">
+        </div>
+        <div class="col-md-8 card-body text-xs-center">
+          <h5 class="card-title">Support the Work</h5>
+          <p class="card-text">Partner with us financially.</p>
+          <a href="partner.html" class="stretched-link">View partnership opions ></a>
+        </div>
+      </div>
+    </div>
+    <!--BLOG-->
+    <div class="card m-3 shadow-sm" style="max-width: 400px;">        
+      <div class="row h-100 d-flex align-items-center">
+        <div class="col-md-4 pt-xs-3 d-flex justify-content-center align-items-center">
+          <img src="assets/icons/blog.png" alt="blog" style="max-block-size: 65px;">
+        </div>
+        <div class="col-md-8 card-body text-xs-center">
+          <h5 class="card-title">Read the Blog</h5>
+          <p class="card-text">Read our blog and keep up to date on what is happening on the ground.</p>
+          <a href="blog.html" class="stretched-link">Read our blog ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END CALL TO ACTION CARDS-->
+
+</main>
+
+<!--FOOTER-->
+<div class="container-fluid border-top">
+  <footer class="row ">
+    <div class="col-md-4 p-2 text-center">
+      <h5>Contact us</h5>
+      <p>westonlisaorg@gmail.com</p>
+    </div>
+    <div class="col-md-4 p-2 text-center">
+      <p>&copy; Weston & Lisa 2022</p>
+      <p>This content is not for redistribution in any form without prior permission.</p>
+    </div>
+    <div class="col-md-4 p-2 text-center">
+      <h5>Pages</h5>
+      <ol class="list-unstyled">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="pray.html">Pray</a></li>
+        <li><a href="partner.html">Partner</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ol>
+    </div>
+  </footer>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+<!--END FOOTER-->
+
+<!--BOOTSTRAP CORE JAVASCRIPT-->  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
+    
 </html>
