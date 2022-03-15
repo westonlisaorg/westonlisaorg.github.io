@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* HYPERLINK COLORS */
 a {
-    color: #e28043 !important;
-    text-decoration: underline;
+    color: #767676 !important;
+    text-decoration: none;
   }
 a:hover {
     color: #f7af63 !important;
