@@ -25,6 +25,50 @@
 
 <body>
 <main class="container">
+  <!--DESKTOP NAVIGATION-->
+  <nav class="navbar navbar-expand-md navbar-light bg-white d-none d-md-block">
+    <div class="container-fluid justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="https://westonlisa.org">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/pray">Pray</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/partner">Partner</a></li>
+        </ul>
+    </div>
+  </nav>
+  <!--MOBILE NAVIGATION-->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top d-md-none" style="color: transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" style="border-color: transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <img class="rounded" src="assets/logo.jpg" alt="W&L" style="max-height: 35px;">
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body pt-0">
+          <ul class="navbar-nav justify-content-end flex-grow-1 border-bottom pb-2 mb-2">
+            <li class="nav-item"><a class="nav-link" href="https://westonlisa.org">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/news">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/pray">Pray</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/partner">Partner</a></li>
+          </ul>
+          <h6>On This Page:</h6>
+          <ul class="navbar-nav justify-content-end flex-grow-1 ">
+            <li><a href="#220404">God's Will Revealed (04/04/22)</a></li>
+            <li><a href="#220328">James Ministry Vision Part 2 (03/28/22)</a></li> 
+            <li><a href="#220322">James Ministry Vision & Equipping Plan (03/22/22)</a></li>
+            <li><a href="#220314">Josh & Mindy Debrief (03/14/22)</a></li>
+            <li><a href="#220307">Reception Preparation (03/07/22)</a></li>
+            <li><a href="#220228">Rest Needed (02/28/22)</a></li>
+            <li><a href="#220221">Mission Conference (02/21/22)</a></li>
+            <li><a href="#220214">Back In Phoenix (02/14/22)</a></li>
+            <li><a href="#220207">Packing Up In Chicago (02/07/22)</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
   <div class="row g-5">
     <!--PRAYER ARCHIVE-->
     <div class="col-md-8"> 
@@ -151,7 +195,7 @@
           <p class="mb-0">Weston and Lisa have been serving in Southeath Asia for the past seven years. They are currently leading a team engaged in village church planting.</p>
         </div>
         <!--BREADCRUMB-->
-        <nav class="px-4 pb-2" aria-label="breadcrumb">
+        <nav class="px-4 pb-2 d-none d-md-block" aria-label="breadcrumb">
           <h5>You are here:</h5>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="https://westonlisa.org">Home</a></li>
@@ -159,7 +203,7 @@
           </ol>
         </nav>
         <!--PAGE NAVIGATION-->
-        <div class="px-4">
+        <div class="px-4 d-none d-md-block">
           <h5>On This Page:</h5>
           <ol class="list-unstyled toc mb-0">
             <li><a href="#220404">God's Will Revealed (04/04/22)</a></li>
@@ -178,32 +222,20 @@
     <!--END SIDEBAR-->
   </div>
 </main>
-
 <!--FOOTER-->
 <div class="container-fluid border-top mt-3">
   <footer class="row ">
-    <div class="col-md-4 p-2 text-center">
+    <div class="p-2 text-center">
       <h5>Contact us</h5>
       <p>westonlisaorg@gmail.com</p>
     </div>
-    <div class="col-md-4 p-2 text-center">
-      <p>&copy; Weston & Lisa 2022</p>
+    <div class="p-2 text-center">
+      <p>&copy; WestonLisa.org 2022</p>
       <p>This content is not for redistribution in any form without prior permission.</p>
-    </div>
-    <div class="col-md-4 p-2 text-center">
-      <h5>Pages</h5>
-      <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link" href="https://westonlisa.org">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/news">News</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/pray">Pray</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/blog">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://westonlisa.org/partner">Partner</a></li>
-      </ol>
     </div>
   </footer>
 </div>
 <!--END FOOTER-->
-
 <!--BOOTSTRAP CORE JAVASCRIPT-->  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
