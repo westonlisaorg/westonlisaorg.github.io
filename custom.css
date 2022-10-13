@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/* NAVBAR TOGGLER COLORS */
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+  }
+.navbar-toggler {
+    padding: 0.25rem 0rem;
+  }
 /* HYPERLINK COLORS */
 a {
     color: #767676 !important;
