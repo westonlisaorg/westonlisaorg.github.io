@@ -7,6 +7,9 @@
 .navbar-toggler {
     padding: 0.25rem 0rem;
   }
+.nav-link.active {
+    color: #f7af63 !important;
+}
 /* HYPERLINK COLORS */
 a {
     color: #767676 !important;
