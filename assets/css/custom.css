@@ -18,7 +18,9 @@ a {
 a:hover {
     color: #f7af63 !important;
 }
-
+.accordion-button:not(.collapsed) {
+  color: #9a3a08;
+}
 /* CARDS RESPONSIVE BEHAVIOR ON SMALL AND EXTRA SMALL DEVICES ONLY */
 @media (max-width: 768px) {
     .text-xs-center {
